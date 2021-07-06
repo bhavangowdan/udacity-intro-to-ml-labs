@@ -12,17 +12,17 @@ In this lab, we will be using a subset of NYC Taxi & Limousine Commission - gree
 
 2. Select **Launch now** under the **Try the new Azure Machine Learning studio** message.
 
-    ![Launch Azure Machine Learning studio.](images/01a.png 'Launch AML')
+    ![Launch Azure Machine Learning studio.](images/ad.png 'Launch AML')
 
 3. When you first launch the studio, you may need to set the directory and subscription. If so, you will see this screen:
 
-    ![Launch Azure Machine Learning studio.](images/00.png 'Launch AML')
+    ![Launch Azure Machine Learning studio.](images/ae.png 'Launch AML')
 
-    > For the directory, select **Udacity** and for the subscription, select **Azure Sponsorship**. For the machine learning workspace, you may see multiple options listed. **Select any of these** (it doesn't matter which) and then click **Get started**.
+    > For the directory, select **Udacity** and for the subscription, select **Udacity cloudlabs sub-05**. For the machine learning workspace, you may see multiple options listed. **Select any of these** (it doesn't matter which) and then click **Get started**.
 
 4. From the studio, select **Datasets, + Create dataset, From web files**. This will open the `Create dataset from web files` dialog on the right.
 
-   ![Image highlights the steps to open the create dataset from web files dialog.](images/04.png 'Create dataset from web files')
+   ![Image highlights the steps to open the create dataset from web files dialog.](images/aa.png 'Create dataset from web files')
 
 5. In the Web URL field provide the following URL for the training data file:
     ```
@@ -44,7 +44,7 @@ In this lab, we will be using a subset of NYC Taxi & Limousine Commission - gree
 
 1. Select columns from the dataset to include as part of your training data. Leave the default selections and select **Next**
 
-    ![Select columns from the dataset to include as part of your training data.](images/07.png 'Select columns')
+    ![Select columns from the dataset to include as part of your training data.](images/ab.png 'Select columns')
 
 ## Task 4: Create Dataset
 
@@ -164,9 +164,9 @@ In this lab, we will be using a subset of NYC Taxi & Limousine Commission - gree
 
 2. In the `Setup pipeline run editor`, select **Experiment, Create new** and provide `New experiment name:` **designer-run**, and then select **Submit**.
 
-    ![Image shows how to provide the experiment name in the setup pipeline run editor and start the pipeline run.](images/20.png 'Submit Pipeline')
+    ![Image shows how to provide the experiment name in the setup pipeline run editor and start the pipeline run.](images/ac.png 'Submit Pipeline')
 
-3. Wait for pipeline run to complete. It will take around **8 minutes** to complete the run.
+3. Wait for pipeline run to complete. It will take around **30 minutes** to complete the run.
 
 4. While you wait for the model training to complete, you can learn more about the training algorithm used in this lab by selecting [Linear Regression module](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/linear-regression).
 
