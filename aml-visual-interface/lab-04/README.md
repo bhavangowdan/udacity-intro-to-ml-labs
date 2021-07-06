@@ -199,7 +199,7 @@ Don't worry if you do not fully understand the details of the Python code above.
 
     > Please note that the button name in the UI is changed from **Run** to **Submit**.
 
-4. Wait for pipeline run to complete. It will take around **10 minutes** to complete the run.
+4. Wait for pipeline run to complete. It will take around **60 minutes** to complete the run.
 
 5. Once the pipeline execution completes, right click on the **Evaluate Model** module and select **Visualize Evaluation results**.
 
