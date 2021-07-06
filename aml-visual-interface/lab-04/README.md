@@ -24,19 +24,19 @@ For the model, we are using regression because the number of rentals (the label 
 
 1. In [Azure portal](https://portal.azure.com/), open the available machine learning workspace.
 
-2. Select **Launch now** under the **Try the new Azure Machine Learning studio** message.
+2. Select **Launch Studio** under the **Try the new Azure Machine Learning studio** message.
 
-    ![Launch Azure Machine Learning studio.](images/01a.png 'Launch AML')
+    ![Launch Azure Machine Learning studio.](images/ba.png 'Launch AML')
 
 3. When you first launch the studio, you may need to set the directory and subscription. If so, you will see this screen:
 
-    ![Launch Azure Machine Learning studio.](images/00.png 'Launch AML')
+    ![Launch Azure Machine Learning studio.](images/bb.png 'Launch AML')
 
-    > For the directory, select **Udacity** and for the subscription, select **Azure Sponsorship**. For the machine learning workspace, you may see multiple options listed. **Select any of these** (it doesn't matter which) and then click **Get started**.
+    > For the directory, select **Udacity** and for the subscription, select **Udacity Cloud labs sub-04**. For the machine learning workspace, you may see multiple options listed. **Select any of these** (it doesn't matter which) and then click **Get started**.
 
 4. From the studio, select **Datasets, + Create dataset, From web files**. This will open the `Create dataset from web files` dialog on the right.
 
-   ![Image highlights the steps to open the create dataset from web files dialog.](images/02.png 'Create dataset from web files')
+   ![Image highlights the steps to open the create dataset from web files dialog.](images/bc.png 'Create dataset from web files')
 
 5. In the Web URL field provide the following URL for the training data file:
     ```https://introtomlsampledata.blob.core.windows.net/data/bike-rental/bike-rental-hour.csv```
@@ -45,9 +45,9 @@ For the model, we are using regression because the number of rentals (the label 
 
     ![Upload bike-rental-hour.csv from a URL.](images/03.png 'Upload dataset')
 
-7. Select the option to `Use headers from the first file` in the **Settings and preview** dialog and then select **Next**, **Next** and **Create** to confirm all details in registering the dataset.
+7. Select the option to `only first file has headers` in the **Settings and preview** dialog and then select **Next**, **Next** and **Create** to confirm all details in registering the dataset.
 
-    ![Preview the Bike Rentals Hourly dataset schema.](images/04.png 'Preview the Bike Rentals Hourly dataset schema')
+    ![Preview the Bike Rentals Hourly dataset schema.](images/bd.png 'Preview the Bike Rentals Hourly dataset schema')
 
 ## Task 2: Open Pipeline Authoring Editor
 
@@ -69,7 +69,7 @@ For the model, we are using regression because the number of rentals (the label 
 
 1. Drag and drop on the canvas, the available `Bike Rental Hourly` dataset under the **Datasets** category on the left navigation.
 
-    ![Image shows how to import the registered Bike Rental dataset in designer.](images/07.png 'Use registered Bike Rental Hourly dataset in the designer')
+    ![Image shows how to import the registered Bike Rental dataset in designer.](images/be.png 'Use registered Bike Rental Hourly dataset in the designer')
 
 2. Under the **Data transformation** category drag and drop the `Edit Metadata` module, connect the module to the dataset, and select **Edit column** on the right pane.
 
@@ -191,11 +191,11 @@ Don't worry if you do not fully understand the details of the Python code above.
 
 2. Drag the **Evaluate Model** module which stands in the same category, **Model Scoring and Evaluation** and link it to the two **Score Model** modules.
 
-   ![Image shows how to configure model scoring and evaluation.](images/20.png 'Model Scoring and evaluation')
+   ![Image shows how to configure model scoring and evaluation.](images/bf.png 'Model Scoring and evaluation')
 
 3. Select **Submit** to open the `Setup pipeline run` editor. In the `Setup pipeline run editor`, select **Experiment, Create new** and provide `New experiment name:` **BikeRentalHourly**.
 
-    ![Image shows how to provide the experiment name in the setup pipeline run editor and start the pipeline run.](images/21.png 'Submit Pipeline')
+    ![Image shows how to provide the experiment name in the setup pipeline run editor and start the pipeline run.](images/bg.png 'Submit Pipeline')
 
     > Please note that the button name in the UI is changed from **Run** to **Submit**.
 
