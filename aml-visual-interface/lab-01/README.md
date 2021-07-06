@@ -158,7 +158,7 @@ In this lab, we will be using a subset of NYC Taxi & Limousine Commission - gree
 
 1. Select **Submit** to open the `Setup pipeline run` editor.
 
-    ![Image shows where to select the submit button to open the setup pipeline run editor.](images/af.PNG 'Submit Pipeline')
+    ![Image shows where to select the submit button to open the setup pipeline run editor.](images/af.png 'Submit Pipeline')
 
     > Please note that the button name in the UI is changed from **Run** to **Submit**.
 
