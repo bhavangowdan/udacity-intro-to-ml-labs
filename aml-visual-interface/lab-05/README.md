@@ -10,19 +10,19 @@ In this lab, we will be using the `Flight Delays` data set that is enhanced with
 
 1. In [Azure portal](https://portal.azure.com/), open the available machine learning workspace.
 
-2. Select **Launch now** under the **Try the new Azure Machine Learning studio** message.
+2. Select **Launch studio** under the **Try the new Azure Machine Learning studio** message.
 
-    ![Launch Azure Machine Learning studio.](images/01a.png 'Launch AML')
+    ![Launch Azure Machine Learning studio.](images/ca.png 'Launch AML')
 
 3. When you first launch the studio, you may need to set the directory and subscription. If so, you will see this screen:
 
-    ![Launch Azure Machine Learning studio.](images/00.png 'Launch AML')
+    ![Launch Azure Machine Learning studio.](images/bb.png 'Launch AML')
 
     > For the directory, select **Udacity** and for the subscription, select **Azure Sponsorship**. For the machine learning workspace, you may see multiple options listed. **Select any of these** (it doesn't matter which) and then click **Get started**.
 
 4. From the studio, select **Datasets, + Create dataset, From web files**. This will open the `Create dataset from web files` dialog on the right.
 
-   ![Image highlights the steps to open the create dataset from web files dialog.](images/04.png 'Create dataset from web files')
+   ![Image highlights the steps to open the create dataset from web files dialog.](images/bc.png 'Create dataset from web files')
 
 5. In the Web URL field provide the following URL for the training data file:
 
@@ -190,13 +190,13 @@ In this lab, we will be using the `Flight Delays` data set that is enhanced with
 
 1. Select **Submit** to open the `Setup pipeline run` editor.
 
-    ![Image shows where to select the submit button to open the setup pipeline run editor.](images/19.png 'Submit Pipeline')
+    ![Image shows where to select the submit button to open the setup pipeline run editor.](images/cb.png 'Submit Pipeline')
 
     > Please note that the button name in the UI is changed from **Run** to **Submit**.
 
 2. In the `Setup pipeline run editor`, select **Experiment, Create new** and provide `New experiment name:`  **flight-delay**, and then select **Submit**.
 
-    ![Image shows how to provide the experiment name in the setup pipeline run editor and start the pipeline run.](images/20.png 'Submit Pipeline')
+    ![Image shows how to provide the experiment name in the setup pipeline run editor and start the pipeline run.](images/cc.png 'Submit Pipeline')
 
 3. Wait for pipeline run to complete. It will take around **10 minutes** to complete the run.
 
