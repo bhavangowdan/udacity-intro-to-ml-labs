@@ -10,7 +10,7 @@ In this lab, we will be using a subset of NYC Taxi & Limousine Commission - gree
 
 1. In [Azure portal](https://portal.azure.com/), open the available machine learning workspace.
 
-2. Select **Launch now** under the **Try the new Azure Machine Learning studio** message.
+2. Select **Launch Studio** under the **Try the new Azure Machine Learning studio** message.
 
     ![Launch Azure Machine Learning studio.](images/ad.PNG 'Launch AML')
 
