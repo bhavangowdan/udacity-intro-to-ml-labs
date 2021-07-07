@@ -22,19 +22,19 @@ In this lab, we will use Automated Machine Learning to find the best performing 
 
 1. In [Azure portal](https://portal.azure.com/), open the available machine learning workspace.
 
-2. Select **Launch now** under the **Try the new Azure Machine Learning studio** message.
+2. Select **Launch Studio** under the **Try the new Azure Machine Learning studio** message.
 
-    ![Launch Azure Machine Learning studio.](images/01a.png 'Launch AML')
+    ![Launch Azure Machine Learning studio.](images/ca.png 'Launch AML')
 
 3. When you first launch the studio, you may need to set the directory and subscription. If so, you will see this screen:
 
-    ![Launch Azure Machine Learning studio.](images/00.png 'Launch AML')
+    ![Launch Azure Machine Learning studio.](images/ba.png 'Launch AML')
 
-    > For the directory, select **Udacity** and for the subscription, select **Azure Sponsorship**. For the machine learning workspace, you may see multiple options listed. **Select any of these** (it doesn't matter which) and then click **Get started**.
+    > For the directory, select **Udacity** and for the subscription, select **Udacity CloudLabs sub-04**. For the machine learning workspace, you may see multiple options listed. **Select any of these** (it doesn't matter which) and then click **Get started**.
 
 4. From the studio, select **Datasets, + Create dataset, From web files**. This will open the `Create dataset from web files` dialog on the right.
 
-   ![Image highlights the steps to open the create dataset from web files dialog.](images/04.png 'Create dataset from web files')
+   ![Image highlights the steps to open the create dataset from web files dialog.](images/bc.png 'Create dataset from web files')
 
 5. In the Web URL field provide the following URL for the training data file:
 
@@ -121,7 +121,7 @@ In this lab, we will use Automated Machine Learning to find the best performing 
 
 ## Task 2: Monitor Experiment
 
-1. The experiment will run for about *5 min*
+1. The experiment will run for about *75 min*
 
 2. In the **Details** tab, observe the **run status** of the job.
 
