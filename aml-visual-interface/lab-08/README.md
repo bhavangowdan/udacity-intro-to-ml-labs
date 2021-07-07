@@ -74,7 +74,7 @@ In this lab, we will be compare the performance of two binary classifiers: Two-C
 
     ![Image shows how to provide the experiment name in the setup pipeline run editor and start the pipeline run.](images/db.png 'Submit Pipeline')
 
-3. Wait for pipeline run to complete. It will take around **5 minutes** to complete the run.
+3. Wait for pipeline run to complete. It will take around **45 minutes** to complete the run.
 
 4. While you wait for the model training to complete, you can learn more about the evaluation metrics for the classification algorithm used in this lab by selecting [Metrics for classification models](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/evaluate-model#bkmk_classification).
 
