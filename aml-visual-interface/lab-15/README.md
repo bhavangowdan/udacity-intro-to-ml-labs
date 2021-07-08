@@ -25,13 +25,13 @@ The trained model will predict what rating a user will give to unseen movies, so
 
 2. Select **Launch now** under the **Try the new Azure Machine Learning studio** message.
 
-    ![Launch Azure Machine Learning studio.](images/01a.png 'Launch AML')
+    ![Launch Azure Machine Learning studio.](images/ca.png 'Launch AML')
 
 3. When you first launch the studio, you may need to set the directory and subscription. If so, you will see this screen:
 
-    ![Launch Azure Machine Learning studio.](images/00.png 'Launch AML')
+    ![Launch Azure Machine Learning studio.](images/ba.png 'Launch AML')
 
-    > For the directory, select **Udacity** and for the subscription, select **Azure Sponsorship**. For the machine learning workspace, you may see multiple options listed. **Select any of these** (it doesn't matter which) and then click **Get started**.
+    > For the directory, select **Udacity** and for the subscription, select **Udacity CloudLabs Sub-04**. For the machine learning workspace, you may see multiple options listed. **Select any of these** (it doesn't matter which) and then click **Get started**.
 
 4. From the studio, select **Designer, +**. This will open a `visual pipeline authoring editor`.
 
@@ -213,7 +213,7 @@ The trained model will predict what rating a user will give to unseen movies, so
 
     ![Image shows how to provide the experiment name in the setup pipeline run editor and start the pipeline run.](images/16.png 'Submit Pipeline')
 
-3. Wait for pipeline run to complete. It will take around **20 minutes** to complete the run.
+3. Wait for pipeline run to complete. It will take around **75 minutes** to complete the run.
 
 4. While you wait for the model training to complete, you can learn more about the SVD algorithm used in this lab by selecting [Train SVD Recommender](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/train-svd-recommender).
 
