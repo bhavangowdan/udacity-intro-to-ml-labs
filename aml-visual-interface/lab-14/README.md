@@ -177,7 +177,7 @@ In this lab we will be using a subset of NYC Taxi & Limousine Commission - green
 
 2. In the `Setup pipeline run editor`, select **Experiment, Create new** and provide `New experiment name:` **neural-network-regression**, and then select **Submit**.
 
-    ![Image shows how to provide the experiment name in the setup pipeline run editor and start the pipeline run.](images/19.png 'Submit Pipeline')
+    ![Image shows how to provide the experiment name in the setup pipeline run editor and start the pipeline run.](images/eb.PNG 'Submit Pipeline')
 
 3. Wait for pipeline run to complete. It will take around **30 minutes** to complete the run.
 
